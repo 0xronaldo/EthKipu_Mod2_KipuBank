@@ -1,8 +1,8 @@
 # KipuBank Contract
 
-## What it does
+## Sobre el contrato
 
-KipuBank contrato en Solidity
+KipuBank contrato en Solidity la verdad no documente bastante tengo que repasar aun mas sobre las funciones y los tipos de datos antes de entrar a temas de mutable no mutable
 
 ## Setup
 
@@ -46,4 +46,5 @@ npx hardhat run scripts/deploy.js --network sepolia
 Verify on Etherscan:bash
 
 npx hardhat verify --network sepolia <CONTRACT_ADDRESS> "1000000000000000000" "100000000000000000000"
+
 
